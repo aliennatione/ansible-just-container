@@ -72,4 +72,5 @@ jobs:
             ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:${{ github.sha }}
 
       - name: Print pushed image info
-        run: echo "Published: ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:${{ github.sha }}"}]}
+        run: echo "Published: ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:${{ github.sha }}"
+
